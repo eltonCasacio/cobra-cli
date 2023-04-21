@@ -1,0 +1,12 @@
+https://github.com/spf13/cobra
+
+******* COBRA CLI *******
+cobra-cli init => CREATE FOLDER CMD...
+cobra-cli add <some-command-name> => CREATE A NEW COMMAND
+cobra-cli add <some-name> -p 'categoryCmd' => CREATE A FUNCTION INTO "command". (chaining)
+
+
+******* GO *******
+go run main.go
+go run main.go <some-command-name> => EXECUTE COMMAND
+go run main.go completion <zsh> => COMPLETE AUTOCOMPLETE
